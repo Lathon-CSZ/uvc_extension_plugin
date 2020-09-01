@@ -193,7 +193,7 @@ CExtension::get_PropertyRange(
     return hr;
 }
 
-CExtension::CExtension()
+/*CExtension::CExtension()
 {
     m_pKsControl = NULL;
 }
@@ -203,4 +203,4 @@ CExtension::FinalConstruct()
 {
     if (m_pOuterUnknown == NULL) return E_FAIL;
     return S_OK;
-}
+}*/
